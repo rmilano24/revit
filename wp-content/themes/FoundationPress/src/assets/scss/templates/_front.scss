@@ -1,6 +1,5 @@
 // Page header
 .front-hero {
-  border: 1px solid blue;
   .marketing {
     @include xy-grid-container(55rem);
     @include xy-grid;
@@ -18,7 +17,7 @@
   }
 
   @include breakpoint(medium) {
-    background: url('../images/demo/hero-bg-foundation-6-large.svg') bottom center;
+    background: url('../images/demo/hero-bg-foundation-6f-large.svg') bottom center;
     background-size: cover;
     background-position: center;
     height: rem-calc(685);
