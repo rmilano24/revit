@@ -11,13 +11,7 @@ get_header(); ?>
 			<h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
 			<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
 		</div>
-
-		<div class="watch">
-			<span id="stargazers"><a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a></span>
-			<span id="twitter"><a href="https://twitter.com/olefredrik">@olefredrik</a></span>
-		</div>
 	</div>
-
 </header>
 
 <?php do_action( 'foundationpress_before_content' ); ?>

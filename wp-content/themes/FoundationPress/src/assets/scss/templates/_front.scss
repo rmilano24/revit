@@ -1,3 +1,13 @@
+.top-bar, .top-bar ul {
+  background: #fff;
+}
+
+.dropdown.menu .is-active > a, .top-bar .menu a {
+  color: #000;
+}
+
+
+
 // Page header
 .front-hero {
   .marketing {
@@ -17,7 +27,7 @@
   }
 
   @include breakpoint(medium) {
-    background: url('../images/demo/hero-bg-foundation-6f-large.svg') bottom center;
+    background: url('../images/bg_hero.jpg') bottom center;
     background-size: cover;
     background-position: center;
     height: rem-calc(685);
