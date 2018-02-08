@@ -36,7 +36,7 @@
 		<nav class="site-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<div class="site-desktop-title top-bar-title">
-					sup
+				<a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/revit-logo.png" alt="Revit"></a>
 				</div>
 			</div>
 			<div class="top-bar-right">
