@@ -14,6 +14,14 @@ get_header(); ?>
 	</div>
 </header>
 
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-4">cell</div>
+    <div class="cell small-4">cell</div>
+    <div class="cell small-4">cell</div>
+  </div>
+</div>
+
 <div class="veg-strip"></div>
 
 <?php do_action( 'foundationpress_before_content' ); ?>
