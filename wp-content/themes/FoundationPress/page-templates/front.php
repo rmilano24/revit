@@ -14,6 +14,8 @@ get_header(); ?>
 	</div>
 </header>
 
+<div class="veg-strip"></div>
+
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 <section class="intro" role="main">
