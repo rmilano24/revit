@@ -98,7 +98,6 @@ get_header(); ?>
 	</section>
 	
 	<section id="the-box">	
-	<div class="grid-container">
 		<div class="grid-x grid-margin-x">
 			<div class="cell small-6" id="revit-box">
 				
@@ -120,9 +119,67 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+</section>
+
+<section id="the-benefits">	
+	<div class="grid-x grid-margin-x">
+		<div class="cell small-6">
+			<h3>We deliver</h3>
+			<h2>only the best</h2>
+			<div class="grid-x grid-margin-x">
+				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+				<div class="cell auto">Whatever's left!</div>
+			</div>
+			<div class="grid-x grid-margin-x">
+				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+				<div class="cell auto">Whatever's left!</div>
+			</div>
+			<div class="grid-x grid-margin-x">
+				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+				<div class="cell auto">Whatever's left!</div>
+			</div>
+		</div>
+		<div class="cell small-6" id="benefits-girl">
+			
+		</div>
 	</div>
 </section>
 
+<section id="testimonials">	
+	<div class="grid-x grid-margin-x">
+		<div class="cell small-12">
+				<h3>We deliver</h3>
+			<h2>only the best</h2>
+		</div>
+	</div>
+</section>
 
+<section id="the-backstory-and-buzz">	
+		<div class="grid-x grid-margin-x">
+			<div class="cell small-6" id="the-backstory">
+				<h3>We deliver</h3>
+				<h2>only the best</h2>
+				
+				<p>Over the years, our friends, family, and colleagues have been hungry for our “secret” to a plant-based diet, as they had trouble finding great tasting, versatile plant-based food options at their local supermarket. The secret was simple: find the best plant-based comfort foods that are easy to fit into people’s daily meals. We turned this concept into revit with the mission to help as many people as possible enjoy the delicious health and environmental benefits of a plant-based lifestyle.</p>
+				<p>— revit founders</p>
 
-<?php get_footer();
+			</div>
+			<div class="cell small-6" id="the-buzz">
+					<h3>We deliver</h3>
+					<h2>only the best</h2>
+					<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>	
+			</div>
+		</div>
+</section>
+
+<section id="cta">	
+		<div class="grid-x grid-margin-x">
+			<div class="cell small-12">
+					<h3>We deliver</h3>
+					<h2>only the best</h2>
+					<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
+			</div>
+		</div>
+	</section>
+
+<?php get_footer();?>

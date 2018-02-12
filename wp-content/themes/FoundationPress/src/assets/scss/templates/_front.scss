@@ -18,10 +18,41 @@
 }
 
 #the-box {
-  border: 1px solid red;
   #revit-box {
-    background: url('../images/bg_purple-tomatoe.jpg') center center;
+    background: url('../images/bg_the-box.jpg') center center;
+    background-size: cover;
+    min-height: 643px;
+   .cell {
+     width: 50%;
+     padding:0;
+      margin:0;
+   }
   }
+}
+
+#the-benefits {
+  #benefits-girl {
+    background: url('../images/bg_the-benefits.jpg') center center;
+    background-size: cover;
+    min-height: 643px;
+    .cell {
+      width: 50%;
+      padding:0;
+      margin:0;
+    }
+  }
+}
+
+#testimonials {
+  background: url('../images/bg_testimonials.jpg') center center;
+  background-size: cover;
+  min-height: 460px;
+}
+
+#cta {
+  background: url('../images/bg_cta.jpg') center center;
+  background-size: cover;
+  min-height: 440px;
 }
 
 // Page header

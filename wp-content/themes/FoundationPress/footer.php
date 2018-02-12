@@ -9,13 +9,35 @@
  */
 ?>
 
-<!-- <footer class="footer">
-    <div class="footer-container">
-        <div class="footer-grid">
-            <?php dynamic_sidebar( 'footer-widgets' ); ?>
+<footer class="footer">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-4">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/pbfa_member_badge.png" alt="">
+                </div>
+                <div class="cell small-4">
+                    <a href="">info@tasterevit.com</a>
+                </div>
+                <div class="cell small-4">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</footer> -->
+        <div id="credits">
+            <div class="grid-x grid-margin-x">
+                <div class="cell small-12">
+                    <ul>
+                        <li><a href="">copyrights</a></li>
+                        <li><a href="">privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+</footer> 
 
 <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
 	</div><!-- Close off-canvas content -->
