@@ -95,7 +95,33 @@ get_header(); ?>
     <div>
       <img src="http://placehold.it/350x300?text=9">
     </div>
-  </section>
+	</section>
+	
+	<section id="the-box">	
+	<div class="grid-container">
+		<div class="grid-x grid-margin-x">
+			<div class="cell small-6" id="revit-box">
+				
+			</div>
+			<div class="cell small-6">
+				<h3>We deliver</h3>
+				<h2>only the best</h2>
+				<div class="grid-x grid-margin-x">
+					<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+					<div class="cell auto">Whatever's left!</div>
+				</div>
+				<div class="grid-x grid-margin-x">
+					<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+					<div class="cell auto">Whatever's left!</div>
+				</div>
+				<div class="grid-x grid-margin-x">
+					<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+					<div class="cell auto">Whatever's left!</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 
