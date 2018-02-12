@@ -9,13 +9,13 @@
  */
 ?>
 
-<footer class="footer">
+<!-- <footer class="footer">
     <div class="footer-container">
         <div class="footer-grid">
             <?php dynamic_sidebar( 'footer-widgets' ); ?>
         </div>
     </div>
-</footer>
+</footer> -->
 
 <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
 	</div><!-- Close off-canvas content -->
@@ -24,7 +24,7 @@
 <?php wp_footer(); ?>
 
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/slick.js"></script>
   <script type="text/javascript">
     $(document).on('ready', function() {
       
