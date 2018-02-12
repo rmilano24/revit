@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Revised-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-284.000000, -3291.000000)">
+        <g id="arrow-left" transform="translate(285.000000, 3292.000000)">
+            <circle id="Oval-3" stroke="#FFFFFF" cx="16.5" cy="16.5" r="17"></circle>
+            <path d="M16.3983848,11.1512 C16.1715934,10.9496 15.8284066,10.9496 15.6016152,11.1512 L10.2018219,15.9512 C9.7902377,16.3196 10.0506277,17 10.6002067,17 L13.0001148,17 L13.0001148,22.4 C13.0001148,22.7312 13.2689045,23 13.6000919,23 L18.3999081,23 C18.7310955,23 18.9998852,22.7312 18.9998852,22.4 L18.9998852,17 L21.3997933,17 C21.9493723,17 22.2097623,16.3196 21.7981781,15.9512 L16.3983848,11.1512 Z" id="Fill-2881-Copy" fill="#FFFFFF" transform="translate(16.000000, 17.000000) scale(-1, 1) rotate(-270.000000) translate(-16.000000, -17.000000) "></path>
+        </g>
+    </g>
+</svg>
