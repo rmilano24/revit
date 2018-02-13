@@ -18,7 +18,7 @@ get_header(); ?>
 <section id="the-best">
 	<div class="grid-container">
 		<div class="grid-x grid-margin-x">
-			<div class="cell small-12">
+			<div class="cell small-12 lead-in">
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
 			</div>
@@ -102,8 +102,10 @@ get_header(); ?>
 				
 			</div>
 			<div class="cell small-6">
-				<h3>We deliver</h3>
-				<h2>only the best</h2>
+				<div class="lead-in">
+					<h3>We deliver</h3>
+					<h2>only the best</h2>
+				</div>
 				<div class="grid-x grid-margin-x">
 					<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 					<div class="cell auto">Whatever's left!</div>
@@ -123,8 +125,10 @@ get_header(); ?>
 <section id="the-benefits">	
 	<div class="grid-x grid-margin-x">
 		<div class="cell small-6">
-			<h3>We deliver</h3>
-			<h2>only the best</h2>
+				<div class="lead-in">
+						<h3>We deliver</h3>
+						<h2>only the best</h2>
+					</div>
 			<div class="grid-x grid-margin-x">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">Whatever's left!</div>
@@ -147,8 +151,10 @@ get_header(); ?>
 <section id="testimonials">	
 	<div class="grid-x grid-margin-x">
 		<div class="cell small-12">
+			<div class="lead-in">
 				<h3>We deliver</h3>
-			<h2>only the best</h2>
+				<h2>only the best</h2>
+			</div>
 		</div>
 	</div>
 </section>
@@ -156,16 +162,20 @@ get_header(); ?>
 <section id="the-backstory-and-buzz">	
 		<div class="grid-x grid-margin-x">
 			<div class="cell small-6" id="the-backstory">
-				<h3>We deliver</h3>
-				<h2>only the best</h2>
+				<div class="lead-in">
+						<h3>We deliver</h3>
+						<h2>only the best</h2>
+				</div>
 				
 				<p>Over the years, our friends, family, and colleagues have been hungry for our “secret” to a plant-based diet, as they had trouble finding great tasting, versatile plant-based food options at their local supermarket. The secret was simple: find the best plant-based comfort foods that are easy to fit into people’s daily meals. We turned this concept into revit with the mission to help as many people as possible enjoy the delicious health and environmental benefits of a plant-based lifestyle.</p>
 				<p>— revit founders</p>
 
 			</div>
 			<div class="cell small-6" id="the-buzz">
-					<h3>We deliver</h3>
-					<h2>only the best</h2>
+					<div class="lead-in">
+							<h3>We deliver</h3>
+							<h2>only the best</h2>
+						</div>
 					<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>	
 			</div>
 		</div>
@@ -174,8 +184,10 @@ get_header(); ?>
 <section id="cta">	
 		<div class="grid-x grid-margin-x">
 			<div class="cell small-12">
-					<h3>We deliver</h3>
-					<h2>only the best</h2>
+					<div class="lead-in">
+							<h3>We deliver</h3>
+							<h2>only the best</h2>
+						</div>
 					<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
 			</div>
 		</div>
