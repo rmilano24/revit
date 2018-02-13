@@ -1,3 +1,7 @@
+.green {
+  color: #B0DF2F;
+ }
+
 .top-bar, .top-bar ul {
   background: #fff;
 }
@@ -64,4 +68,6 @@
   background: url('../images/bg_cta.jpg') center center;
   background-size: cover;
   min-height: 440px;
+  text-align: center;
+  padding-top: 50px;
 }

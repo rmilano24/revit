@@ -185,10 +185,10 @@ get_header(); ?>
 		<div class="grid-x grid-margin-x">
 			<div class="cell small-12">
 					<div class="lead-in">
-							<h3>We deliver</h3>
-							<h2>only the best</h2>
+							<h2>You can have it all….from plants</h2>
+							<h1 class="regular">The Comfort <span class="green">+</span> The Flavor <span class="green">+</span> The Benefits</h1>
 						</div>
-					<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
+					<a role="button" class="download large button sites-button hide-for-small-only" href="#">Reward Your Tastebuds Now</a>
 			</div>
 		</div>
 	</section>

@@ -51,10 +51,9 @@
     $(document).on('ready', function() {
       
       $(".center").slick({
-        dots: true,
         infinite: true,
         centerMode: true,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1
       });
     });
