@@ -1,1 +1,10 @@
-<svg width="20" height="17" viewBox="0 0 20 17" xmlns="http://www.w3.org/2000/svg"><title>li-checkmark</title><path fill="#B0DF2F" d="M16.957 0L6.087 10.87 3.043 7.826 0 10.87l6.087 6.087L20 3.043z" fill-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>li-checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Revised-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-220.000000, -2614.000000)">
+        <polygon id="li-checkmark" fill="#B0DF2F" points="236.956522 2614 226.086957 2624.86957 223.043478 2621.82609 220 2624.86957 226.086957 2630.95652 240 2617.04348"></polygon>
+    </g>
+</svg>
