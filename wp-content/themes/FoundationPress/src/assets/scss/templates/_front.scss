@@ -50,7 +50,7 @@
   #bg_lettuce {
     background: url('../images/bg_buzz.jpg') bottom right no-repeat;
     background-size: contain;
-    padding: 0 100px 50px 100px;
+    padding-right: calc(50% - 600px);
   }
   .grid-margin-x {
     border: 1px solid red;
@@ -62,7 +62,7 @@
   #bg_tomatoe {
     background: url('../images/bg_purple-tomatoe.jpg') bottom left no-repeat #9B3B97;
     color: #fff;
-    padding: 0 100px 50px 100px;
+    padding-left: calc(50% - 600px);
     h2, h3 {
       color: #fff;
     }
@@ -102,9 +102,9 @@
 
 #the-backstory {
   background: #DEF2F1;
-  padding: 0 100px 100px 100px;
+  padding-left: calc(50% - 600px);
 }
 
 #the-buzz {
-  padding: 0 100px 100px 100px;
+  padding-right: calc(50% - 600px);
 }

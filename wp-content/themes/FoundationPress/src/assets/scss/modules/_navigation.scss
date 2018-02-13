@@ -1,5 +1,21 @@
 nav {
-  a {
-    text-transform: uppercase;
+  li {
+    &::before {
+      content: "•";
+      color: #9B3B97;
+      position: absolute;
+      top:5px;
+    }
+    &:first-of-type {
+      &::before { 
+        content: "";
+      }
+    }
+    a {
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: 1px;
+      padding: 10px 20px 10px 30px !important;
+    }
   }
 }
