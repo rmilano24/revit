@@ -66,7 +66,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<!-- <section class="center slider">
+<section class="center slider">
     <div>
       <img src="http://placehold.it/350x300?text=1">
     </div>
@@ -94,7 +94,7 @@ get_header(); ?>
     <div>
       <img src="http://placehold.it/350x300?text=9">
     </div>
-</section> -->
+</section> 
 	
 <section id="the-box">	
 	<div class="grid-x grid-padding-x">
