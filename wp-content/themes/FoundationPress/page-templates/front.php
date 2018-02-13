@@ -17,7 +17,7 @@ get_header(); ?>
 
 <section id="the-best">
 	<div class="grid-container">
-		<div class="grid-x grid-margin-x">
+		<div class="grid-x grid-padding-x">
 			<div class="cell small-12 lead-in">
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
@@ -25,7 +25,7 @@ get_header(); ?>
 		</div>
 	</div>			
 	<div class="grid-container">
-		<div class="grid-x grid-margin-x">
+		<div class="grid-x grid-padding-x">
 			<div class="cell small-4">
 				<div class="icon">
 					<svg width="146px" height="95px" viewBox="0 0 146 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -66,7 +66,7 @@ get_header(); ?>
 	</div>
 </section>
 
- <section class="center slider">
+<!-- <section class="center slider">
     <div>
       <img src="http://placehold.it/350x300?text=1">
     </div>
@@ -94,52 +94,51 @@ get_header(); ?>
     <div>
       <img src="http://placehold.it/350x300?text=9">
     </div>
-	</section>
+</section> -->
 	
-	<section id="the-box">	
-		<div class="grid-x grid-margin-x">
-			<div class="cell small-6" id="revit-box">
-				
+<section id="the-box">	
+	<div class="grid-x grid-padding-x">
+		<div class="cell small-6" id="revit-box">
+		</div>
+		<div class="cell small-6" id="bg_lettuce">
+			<div class="lead-in">
+				<h3>We deliver</h3>
+				<h2>only the best</h2>
 			</div>
-			<div class="cell small-6">
+			<div class="grid-x grid-padding-x">
+				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+			</div>
+			<div class="grid-x grid-padding-x">
+				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+			</div>
+			<div class="grid-x grid-padding-x">
+				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
+				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="the-benefits">	
+	<div class="grid-x grid-padding-x">
+		<div class="cell small-6" id="bg_tomatoe">
 				<div class="lead-in">
 					<h3>We deliver</h3>
 					<h2>only the best</h2>
 				</div>
-				<div class="grid-x grid-margin-x">
-					<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-					<div class="cell auto">Whatever's left!</div>
-				</div>
-				<div class="grid-x grid-margin-x">
-					<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-					<div class="cell auto">Whatever's left!</div>
-				</div>
-				<div class="grid-x grid-margin-x">
-					<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-					<div class="cell auto">Whatever's left!</div>
-				</div>
-			</div>
-		</div>
-</section>
-
-<section id="the-benefits">	
-	<div class="grid-x grid-margin-x">
-		<div class="cell small-6">
-				<div class="lead-in">
-						<h3>We deliver</h3>
-						<h2>only the best</h2>
-					</div>
-			<div class="grid-x grid-margin-x">
+			<div class="grid-x grid-padding-x">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Whatever's left!</div>
+				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
-			<div class="grid-x grid-margin-x">
+			<div class="grid-x grid-padding-x">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Whatever's left!</div>
+				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
-			<div class="grid-x grid-margin-x">
+			<div class="grid-x grid-padding-x">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Whatever's left!</div>
+				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
 		</div>
 		<div class="cell small-6" id="benefits-girl">
@@ -149,7 +148,7 @@ get_header(); ?>
 </section>
 
 <section id="testimonials">	
-	<div class="grid-x grid-margin-x">
+	<div class="grid-x grid-padding-x">
 		<div class="cell small-12">
 			<div class="lead-in">
 				<h3>We deliver</h3>
@@ -159,38 +158,38 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="the-backstory-and-buzz">	
-		<div class="grid-x grid-margin-x">
-			<div class="cell small-6" id="the-backstory">
+<section id="the-backstory-and-buzz">
+	<div class="grid-x grid-padding-x">
+		<div class="cell small-6" id="the-backstory">
+			<div class="lead-in">
+				<h3>We deliver</h3>
+				<h2>only the best</h2>
+			</div>
+			
+			<p>Over the years, our friends, family, and colleagues have been hungry for our “secret” to a plant-based diet, as they had trouble finding great tasting, versatile plant-based food options at their local supermarket. The secret was simple: find the best plant-based comfort foods that are easy to fit into people’s daily meals. We turned this concept into revit with the mission to help as many people as possible enjoy the delicious health and environmental benefits of a plant-based lifestyle.</p>
+			<p><span class="purple"><b>—</b></span> revit founders</p>
+
+		</div>
+		<div class="cell small-6" id="the-buzz">
 				<div class="lead-in">
 						<h3>We deliver</h3>
 						<h2>only the best</h2>
-				</div>
-				
-				<p>Over the years, our friends, family, and colleagues have been hungry for our “secret” to a plant-based diet, as they had trouble finding great tasting, versatile plant-based food options at their local supermarket. The secret was simple: find the best plant-based comfort foods that are easy to fit into people’s daily meals. We turned this concept into revit with the mission to help as many people as possible enjoy the delicious health and environmental benefits of a plant-based lifestyle.</p>
-				<p>— revit founders</p>
-
-			</div>
-			<div class="cell small-6" id="the-buzz">
-					<div class="lead-in">
-							<h3>We deliver</h3>
-							<h2>only the best</h2>
-						</div>
-					<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>	
-			</div>
+					</div>
+				<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>	
 		</div>
+	</div>
 </section>
 
 <section id="cta">	
-		<div class="grid-x grid-margin-x">
-			<div class="cell small-12">
-					<div class="lead-in">
-							<h2>You can have it all….from plants</h2>
-							<h1 class="regular">The Comfort <span class="green">+</span> The Flavor <span class="green">+</span> The Benefits</h1>
-						</div>
-					<a role="button" class="download large button sites-button hide-for-small-only" href="#">Reward Your Tastebuds Now</a>
-			</div>
+	<div class="grid-x grid-padding-x">
+		<div class="cell small-12">
+				<div class="lead-in">
+						<h2>You can have it all….from plants</h2>
+						<h1 class="regular">The Comfort <span class="green">+</span> The Flavor <span class="green">+</span> The Benefits</h1>
+					</div>
+				<a role="button" class="download large button sites-button hide-for-small-only" href="#">Reward Your Tastebuds Now</a>
 		</div>
-	</section>
+	</div>
+</section>
 
 <?php get_footer();?>

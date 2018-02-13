@@ -11,7 +11,7 @@
 
 <footer class="footer">
         <div class="grid-container">
-            <div class="grid-x grid-margin-x">
+            <div class="grid-x grid-padding-x">
                 <div class="cell small-4">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/pbfa_member_badge.png" alt="">
                 </div>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div id="credits">
-            <div class="grid-x grid-margin-x">
+            <div class="grid-x grid-padding-x">
                 <div class="cell small-12">
                     <ul>
                         <li><a href="">copyrights</a></li>

@@ -2,6 +2,10 @@
   color: #B0DF2F;
  }
 
+.purple {
+  color: #9B3B97;
+} 
+
 .top-bar, .top-bar ul {
   background: #fff;
 }
@@ -34,7 +38,7 @@
 
 #the-box {
   #revit-box {
-    background: url('../images/bg_the-box.jpg') center center;
+    background: url('../images/bg_the-box.jpg') center center no-repeat;
     background-size: cover;
     min-height: 643px;
    .cell {
@@ -43,9 +47,26 @@
       margin:0;
    }
   }
+  #bg_lettuce {
+    background: url('../images/bg_buzz.jpg') bottom right no-repeat;
+    background-size: contain;
+    padding: 0 100px 50px 100px;
+  }
+  .grid-margin-x {
+    border: 1px solid red;
+    max-width: 500px;
+  }
 }
 
 #the-benefits {
+  #bg_tomatoe {
+    background: url('../images/bg_purple-tomatoe.jpg') bottom left no-repeat #9B3B97;
+    color: #fff;
+    padding: 0 100px 50px 100px;
+    h2, h3 {
+      color: #fff;
+    }
+  }
   #benefits-girl {
     background: url('../images/bg_the-benefits.jpg') center center;
     background-size: cover;
@@ -62,6 +83,13 @@
   background: url('../images/bg_testimonials.jpg') center center;
   background-size: cover;
   min-height: 460px;
+  text-align: center;
+  h3 {
+    color: #fff;
+  }
+  h2 {
+    color: #B0DF2F;
+  }
 }
 
 #cta {
@@ -70,4 +98,13 @@
   min-height: 440px;
   text-align: center;
   padding-top: 50px;
+}
+
+#the-backstory {
+  background: #DEF2F1;
+  padding: 0 100px 100px 100px;
+}
+
+#the-buzz {
+  padding: 0 100px 100px 100px;
 }
