@@ -47,6 +47,8 @@
 
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/slick.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/scrolltoid.js"></script>
+
   <script type="text/javascript">
     $(document).on('ready', function() {
       
@@ -58,6 +60,8 @@
       });
     });
 </script>
+
+
 
 
 <script id="__bs_script__">//<![CDATA[
