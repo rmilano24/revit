@@ -8,7 +8,7 @@ get_header(); ?>
 	<div class="marketing">
 		<div class="tagline">
 			<h1>Nature's <span class="regular">comfort food</span></h1>
-			<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Sign Up Now</a>
+			<a role="button" class="download large button sites-button" href="#">Sign Up Now</a>
 		</div>
 	</div>
 </header>

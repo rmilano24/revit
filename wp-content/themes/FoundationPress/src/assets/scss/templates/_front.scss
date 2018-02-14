@@ -67,6 +67,9 @@
       margin-bottom: 30px;
       &:last-of-type {
         margin-bottom: 0px;
+        @include breakpoint(small down) {
+          margin-bottom: 20px;
+        }
       }
     }
   }
@@ -92,6 +95,7 @@
       margin-bottom: 30px;
       &:last-of-type {
         margin-bottom: 0px;
+        
       }
     }
   }
