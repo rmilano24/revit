@@ -66,3 +66,21 @@ p {
     font-size: 18px;
     line-height: 26px;
 }
+
+blockquote {
+    font-size: 30px;
+    font-style: italic;
+    line-height: 36px;
+    color: #fff;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    border-left: none;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.personsName {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}

@@ -66,35 +66,25 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="center slider">
-    <div>
-      <img src="http://placehold.it/350x300?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=9">
-    </div>
-</section> 
+<!-- <section class="center slider">
+		
+			<div>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/fruit-jars@2x.jpg" alt="fruit jars">
+			</div>
+			<div>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/fatherson@2x.jpg" alt="fruit jars">
+			</div>
+			<div>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger@2x.jpg" alt="fruit jars">
+			</div>
+			<div>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/sando@2x.jpg" alt="fruit jars">
+			</div>
+			<div>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/speghetti@2x.jpg" alt="fruit jarfs">
+			</div>
+		
+</section> -->
 	
 <section id="the-box">	
 	<div class="grid-x grid-padding-x">
@@ -105,15 +95,15 @@ get_header(); ?>
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
 			</div>
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
@@ -128,15 +118,15 @@ get_header(); ?>
 					<h3>We deliver</h3>
 					<h2>only the best</h2>
 				</div>
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
-			<div class="grid-x grid-padding-x">
+			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
@@ -154,6 +144,13 @@ get_header(); ?>
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
 			</div>
+		
+
+			<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
+
+			<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
+			
+
 		</div>
 	</div>
 </section>
@@ -172,10 +169,23 @@ get_header(); ?>
 		</div>
 		<div class="cell small-6" id="the-buzz">
 				<div class="lead-in">
-						<h3>We deliver</h3>
-						<h2>only the best</h2>
-					</div>
-				<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>	
+					<h3>We deliver</h3>
+					<h2>only the best</h2>
+				</div>
+				<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>
+				<div class="grid-x grid-margin-x">
+					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
+					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
+				</div>
+				<div class="grid-x grid-margin-x">
+					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
+					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
+				</div>
+				<div class="grid-x grid-margin-x">
+					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
+					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
+				</div>			
+				
 		</div>
 	</div>
 </section>

@@ -118,7 +118,7 @@
     display: none;
 }
 
-// SLICK THEME
+// THEME
 
 @charset 'UTF-8';
 /* Slider */
@@ -323,41 +323,4 @@
 {
     opacity: .75;
     color: black;
-}
-
-// DEMO
-
-.slider {
-  width: 100%;
-  height: 500px;
-  margin-bottom: 0px;
-}
-
-.slick-slide {
-margin: 0px 20px;
-max-height: 500px;
-}
-
-.slick-slide img {
-width: 100%;
-max-height: 500px;
-}
-
-.slick-prev:before,
-.slick-next:before {
-color: black;
-}
-
-
-.slick-slide {
-transition: all ease-in-out .3s;
-opacity: .2;
-}
-
-.slick-active {
-opacity: .5;
-}
-
-.slick-current {
-opacity: 1;
 }

@@ -55,6 +55,13 @@
     background: url('../images/bg_buzz.jpg') bottom right no-repeat;
     background-size: contain;
     padding-right: calc(50% - 600px);
+    padding-left: 65px;
+    .icon-padding {
+      margin-bottom: 30px;
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+    }
   }
   .grid-margin-x {
     border: 1px solid red;
@@ -67,8 +74,15 @@
     background: url('../images/bg_purple-tomatoe.jpg') bottom left no-repeat #9B3B97;
     color: #fff;
     padding-left: calc(50% - 600px);
+    padding-right: 65px;
     h2, h3 {
       color: #fff;
+    }
+    .icon-padding {
+      margin-bottom: 30px;
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
     }
   }
   #benefits-girl {
@@ -107,8 +121,12 @@
 #the-backstory {
   background: #DEF2F1;
   padding-left: calc(50% - 600px);
+  padding-right: 65px;
+  padding-bottom: 65px;
 }
 
 #the-buzz {
   padding-right: calc(50% - 600px);
+  padding-left: 65px;
+  padding-bottom: 65px;
 }

@@ -49,19 +49,6 @@
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/slick.js"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/js/lib/scrolltoid.js"></script>
 
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-      
-      $(".center").slick({
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      });
-    });
-</script>
-
-
 
 
 <script id="__bs_script__">//<![CDATA[
