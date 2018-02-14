@@ -20,8 +20,12 @@ h1 {
     font-size: 80px;
     color: #FFFFFF;
     letter-spacing: 4px;
-    line-height: 83px;
+    line-height: 90px;
     text-shadow: 0 2px 7px #000000;
+    @include breakpoint(470px down) {
+        font-size: 50px;
+        line-height: 63px;
+    }
 }
 
 #cta {
@@ -40,6 +44,9 @@ h1 {
 .regular {
     font-family: 'RecipeDaily';
     font-size: 140px;   
+    @include breakpoint(470px down) {
+        font-size: 100px;
+    }
    }
 
 h2 {
