@@ -26,7 +26,7 @@ get_header(); ?>
 	</div>			
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
-			<div class="cell small-4">
+			<div class="cell small-12 medium-4">
 				<div class="icon">
 					<svg width="146px" height="95px" viewBox="0 0 146 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g id="Home-Revised-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-306.000000, -990.000000)">
@@ -38,7 +38,7 @@ get_header(); ?>
 				</div>	
 				<p>There are now delicious plant-based options for all of your favorite foods - burgers, sausages, bacon, cheese, butter, yogurt, milk, crackers, cookies, and more!</p>
 			</div>
-			<div class="cell small-4">
+			<div class="cell small-12 medium-4">
 			<div class="icon">
 					<svg width="146px" height="95px" viewBox="0 0 146 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g id="Home-Revised-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-306.000000, -990.000000)">
@@ -50,7 +50,7 @@ get_header(); ?>
 				</div>	
 				<p>There are now delicious plant-based options for all of your favorite foods - burgers, sausages, bacon, cheese, butter, yogurt, milk, crackers, cookies, and more!</p>
 			</div>
-			<div class="cell small-4">
+			<div class="cell small-12 medium-4">
 			<div class="icon">
 					<svg width="146px" height="95px" viewBox="0 0 146 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g id="Home-Revised-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-306.000000, -990.000000)">
@@ -88,9 +88,9 @@ get_header(); ?>
 	
 <section id="the-box">	
 	<div class="grid-x grid-padding-x">
-		<div class="cell small-6" id="revit-box">
+		<div class="cell small-12 large-6" id="revit-box">
 		</div>
-		<div class="cell small-6" id="bg_lettuce">
+		<div class="cell small-12 large-6" id="bg_lettuce">
 			<div class="lead-in">
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
@@ -113,7 +113,7 @@ get_header(); ?>
 
 <section id="the-benefits">	
 	<div class="grid-x grid-padding-x">
-		<div class="cell small-6" id="bg_tomatoe">
+		<div class="cell small-12 large-6" id="bg_tomatoe">
 				<div class="lead-in">
 					<h3>We deliver</h3>
 					<h2>only the best</h2>
@@ -131,7 +131,7 @@ get_header(); ?>
 				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
 			</div>
 		</div>
-		<div class="cell small-6" id="benefits-girl">
+		<div class="cell small-12 large-6" id="benefits-girl">
 			
 		</div>
 	</div>
@@ -157,7 +157,7 @@ get_header(); ?>
 
 <section id="the-backstory-and-buzz">
 	<div class="grid-x grid-padding-x">
-		<div class="cell small-6" id="the-backstory">
+		<div class="cell small-12 large-6" id="the-backstory">
 			<div class="lead-in">
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
@@ -167,7 +167,7 @@ get_header(); ?>
 			<p><span class="purple"><b>—</b></span> revit founders</p>
 
 		</div>
-		<div class="cell small-6" id="the-buzz">
+		<div class="cell small-12 large-6" id="the-buzz">
 				<div class="lead-in">
 					<h3>We deliver</h3>
 					<h2>only the best</h2>

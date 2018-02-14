@@ -11,14 +11,14 @@
 
 <footer class="footer">
         <div class="grid-container">
-            <div class="grid-x grid-padding-x align-middle">
-                <div class="cell small-4">
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-12 medium-4 align-middle">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/pbfa_member_badge.png" alt="">
                 </div>
-                <div class="cell small-4 align-middle">
+                <div class="cell small-12 medium-4 align-middle">
                     <a href="" class="emailus">info@tasterevit.com</a>
                 </div>
-                <div class="cell small-4 align-middle">
+                <div class="cell small-12 medium-4 align-middle">
                     <ul>
                         <li><a href="">
                         <svg width="68px" height="62px" viewBox="0 0 68 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
