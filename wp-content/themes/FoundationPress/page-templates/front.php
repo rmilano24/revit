@@ -88,24 +88,24 @@ get_header(); ?>
 	
 <section id="the-box">	
 	<div class="grid-x grid-padding-x">
-		<div class="cell small-12 large-6" id="revit-box">
+		<div class="cell small-12 medium-6" id="revit-box">
 		</div>
-		<div class="cell small-12 large-6" id="bg_lettuce">
+		<div class="cell small-12 medium-6" id="bg_lettuce">
 			<div class="lead-in">
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
 			</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
 		</div>
 	</div>
@@ -113,25 +113,25 @@ get_header(); ?>
 
 <section id="the-benefits">	
 	<div class="grid-x grid-padding-x">
-		<div class="cell small-12 large-6" id="bg_tomatoe">
+		<div class="cell small-12 medium-6" id="bg_tomatoe">
 				<div class="lead-in">
 					<h3>We deliver</h3>
 					<h2>only the best</h2>
 				</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</div>
+				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
 		</div>
-		<div class="cell small-12 large-6" id="benefits-girl">
+		<div class="cell small-12 medium-6" id="benefits-girl">
 			
 		</div>
 	</div>
@@ -157,7 +157,7 @@ get_header(); ?>
 
 <section id="the-backstory-and-buzz">
 	<div class="grid-x grid-padding-x">
-		<div class="cell small-12 large-6" id="the-backstory">
+		<div class="cell small-12 medium-6" id="the-backstory">
 			<div class="lead-in">
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
@@ -167,21 +167,21 @@ get_header(); ?>
 			<p><span class="purple"><b>—</b></span> revit founders</p>
 
 		</div>
-		<div class="cell small-12 large-6" id="the-buzz">
+		<div class="cell small-12 medium-6" id="the-buzz">
 				<div class="lead-in">
 					<h3>We deliver</h3>
 					<h2>only the best</h2>
 				</div>
 				<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>
-				<div class="grid-x grid-margin-x">
+				<div class="grid-x grid-padding-x icon-padding">
 					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
 					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
 				</div>
-				<div class="grid-x grid-margin-x">
+				<div class="grid-x grid-padding-x icon-padding">
 					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
 					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
 				</div>
-				<div class="grid-x grid-margin-x">
+				<div class="grid-x grid-padding-x icon-padding">
 					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
 					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
 				</div>			
