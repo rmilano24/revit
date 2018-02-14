@@ -41,9 +41,17 @@ nav {
 
 .menu-icon {
   float:right;
+  top: -42px;
 }
 
 .menu-icon::after {
-  background: red;
-  box-shadow: 0 7px 0 red, 0 14px 0 red;
+  background: ##99bf31;
+  box-shadow: 0 7px 0 ##99bf31, 0 14px 0 ##99bf31;
+}
+
+.off-canvas {
+  background: #9B3B97;
+  a {
+    color: #fff;
+  }
 }
