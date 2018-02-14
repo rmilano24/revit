@@ -11,6 +11,11 @@ nav {
         content: "";
       }
     }
+    &:last-of-type {
+      &::before { 
+        content: "";
+      }
+    }
     a {
       text-transform: uppercase;
       font-size: 18px;
@@ -18,4 +23,19 @@ nav {
       padding: 10px 20px 10px 30px !important;
     }
   }
+}
+
+.dropdown.menu .is-active > a, .top-bar .menu .button a {
+  color: #fff;
+}
+
+// MOBILE
+
+.menu-icon {
+  float:right;
+}
+
+.menu-icon::after {
+  background: red;
+  box-shadow: 0 7px 0 red, 0 14px 0 red;
 }

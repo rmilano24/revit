@@ -33,7 +33,6 @@
 			<nav class="site-navigation top-bar" role="navigation">
 				<div class="top-bar-left">
 					<div class="site-desktop-title top-bar-title">
-					<button aria-label="<?php _e( 'Main Menu', 'foundationpress' ); ?>" class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
 					<a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/revit-logo.png" alt="Revit"></a>
 					</div>
 				</div>
@@ -41,6 +40,6 @@
 					<?php foundationpress_top_bar_r(); ?>
 				</div>
 			</nav>
+			<button aria-label="<?php _e( 'Main Menu', 'foundationpress' ); ?>" class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
 	</div>
 </header>
-
