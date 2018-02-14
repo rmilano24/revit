@@ -1,10 +1,11 @@
 nav {
   li {
+    padding-top: 20px;
     &::before {
       content: "•";
       color: #9B3B97;
       position: absolute;
-      top:5px;
+      top: 25px;
     }
     &:first-of-type {
       &::before { 
@@ -23,10 +24,15 @@ nav {
       padding: 10px 20px 10px 30px !important;
     }
   }
+  .button {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
 }
 
 .dropdown.menu .is-active > a, .top-bar .menu .button a {
   color: #fff;
+  
 }
 
 // MOBILE
