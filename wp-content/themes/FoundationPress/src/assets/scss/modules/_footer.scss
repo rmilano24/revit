@@ -9,6 +9,9 @@
   }
   .emailus {
     font-size: 50px;
+    @include breakpoint(small down) {
+      font-size: 25px;
+    }
   }
   ul {
     text-align: right;

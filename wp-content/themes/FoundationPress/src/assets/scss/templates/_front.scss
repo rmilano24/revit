@@ -92,6 +92,25 @@
     @include breakpoint(small down) {
       padding-left:20px;
     }
+   ul {
+     list-style-type: none;
+     margin-left:0px;
+     li {
+      &:before {
+        content: '';
+        display: inline-block;
+        height: 13px;
+        width: 16px;
+        background-image: url('../images/li-checkmark.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right:0.5em;   
+      }
+     }
+   }
+   p {
+     margin-bottom: 10px;
+   }
     h2, h3 {
       color: #fff;
     }

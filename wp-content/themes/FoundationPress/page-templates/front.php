@@ -120,7 +120,14 @@ get_header(); ?>
 				</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
+				<div class="cell auto">
+					<p>Enjoy immediate health benefits:</p>
+					<ul>
+						<li>Less bad cholesterol</li>
+						<li>Less bad cholesterol</li>
+						<li>Less bad cholesterol</li>
+					</ul>
+				</div>
 			</div>
 			<div class="grid-x grid-padding-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
