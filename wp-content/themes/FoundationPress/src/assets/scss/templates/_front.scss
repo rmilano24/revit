@@ -129,4 +129,13 @@
   padding-right: calc(50% - 600px);
   padding-left: 65px;
   padding-bottom: 65px;
+  .grid-margin-x {
+    margin-bottom: 30px;
+    &:last-of-type {
+      margin-bottom: 0px;
+    }
+  }
+  .shrink {
+    padding-right: 20px;
+  }
 }
