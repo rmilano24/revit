@@ -95,15 +95,15 @@ get_header(); ?>
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
 			</div>
-			<div class="grid-x grid-padding-x icon-padding">
+			<div class="grid-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
-			<div class="grid-x grid-padding-x icon-padding">
+			<div class="grid-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
-			<div class="grid-x grid-padding-x icon-padding">
+			<div class="grid-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
@@ -118,7 +118,7 @@ get_header(); ?>
 					<h3>We deliver</h3>
 					<h2>only the best</h2>
 				</div>
-			<div class="grid-x grid-padding-x icon-padding">
+			<div class="grid-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto">
 					<p>Enjoy immediate health benefits:</p>
@@ -129,11 +129,11 @@ get_header(); ?>
 					</ul>
 				</div>
 			</div>
-			<div class="grid-x grid-padding-x icon-padding">
+			<div class="grid-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
-			<div class="grid-x grid-padding-x icon-padding">
+			<div class="grid-x icon-padding">
 				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
 				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
 			</div>
@@ -180,15 +180,15 @@ get_header(); ?>
 					<h2>only the best</h2>
 				</div>
 				<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>
-				<div class="grid-x grid-padding-x icon-padding">
+				<div class="grid-x icon-padding">
 					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
 					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
 				</div>
-				<div class="grid-x grid-padding-x icon-padding">
+				<div class="grid-x icon-padding">
 					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
 					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
 				</div>
-				<div class="grid-x grid-padding-x icon-padding">
+				<div class="grid-x icon-padding">
 					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
 					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
 				</div>			

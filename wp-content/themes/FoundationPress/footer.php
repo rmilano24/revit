@@ -11,7 +11,7 @@
 
 <footer class="footer">
         <div class="grid-container">
-            <div class="grid-x grid-padding-x">
+            <div class="grid-x">
                 <div class="cell small-12 medium-4 align-middle">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/pbfa_member_badge.png" alt="">
                 </div>
