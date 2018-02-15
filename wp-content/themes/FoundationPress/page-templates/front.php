@@ -97,8 +97,8 @@ get_header(); ?>
 		</div>
 		<div class="cell small-12 medium-6" id="bg_lettuce">
 			<div class="lead-in">
-				<h3>We deliver</h3>
-				<h2>only the best</h2>
+			<h3><?php the_field('section_two_header'); ?></h3>
+				<h2><?php the_field('section_two_subheader'); ?></h2>
 			</div>
 
 
@@ -141,30 +141,47 @@ get_header(); ?>
 	<div class="grid-x grid-padding-x">
 		<div class="cell small-12 medium-6" id="bg_tomatoe">
 				<div class="lead-in">
-					<h3>We deliver</h3>
-					<h2>only the best</h2>
+				<h3><?php the_field('section_three_header'); ?></h3>
+				<h2><?php the_field('section_three_subheader'); ?></h2>
 				</div>
+
+			
+			<?php
+				$args = array(
+					'post_type' => 'benefit_icons',
+					'posts_per_page' => 5
+				);
+				$my_benefit_icons = new WP_Query( $args );
+				if( $my_benefit_icons->have_posts() ) {
+					while( $my_benefit_icons ->have_posts() ) {
+						$my_benefit_icons->the_post();
+			?>
+			
 			<div class="grid-x icon-padding">
-				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto">
-					<p>Enjoy immediate health benefits:</p>
-					<ul>
-						<li>Less bad cholesterol</li>
-						<li>Less bad cholesterol</li>
-						<li>Less bad cholesterol</li>
-					</ul>
+				<div class="cell small-3">
+					<?php
+						$image = get_field('icon');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
 				</div>
+				<div class="cell auto"><p><?php the_field('icon_text'); ?></p></div>
 			</div>
-			<div class="grid-x icon-padding">
-				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
-			</div>
-			<div class="grid-x icon-padding">
-				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
-			</div>
+
+			<?php
+					}
+				}
+				else {
+					echo 'There are currently no box icons added.';
+				}
+			?>
+			<?php wp_reset_query(); ?>
+
+
+			
 		</div>
 		<div class="cell small-12 medium-6" id="benefits-girl">
+		</div>	
 			
 		</div>
 	</div>
@@ -175,8 +192,8 @@ get_header(); ?>
 		<div class="cell small-12">
 
 			<div class="lead-in">
-				<h3>We deliver</h3>
-				<h2>only the best</h2>
+				<h3><?php the_field('section_four_header'); ?></h3>
+				<h2><?php the_field('section_four_subheader'); ?></h2>
 			</div>
 
 		<div class="lazy slider" data-sizes="50vw">
@@ -215,8 +232,8 @@ get_header(); ?>
 	<div class="grid-x grid-padding-x">
 		<div class="cell small-12 medium-6" id="the-backstory">
 			<div class="lead-in">
-				<h3>We deliver</h3>
-				<h2>only the best</h2>
+				<h3><?php the_field('section_five_header'); ?></h3>
+				<h2><?php the_field('section_five_subheader'); ?></h2>
 			</div>
 			
 			<p>Over the years, our friends, family, and colleagues have been hungry for our “secret” to a plant-based diet, as they had trouble finding great tasting, versatile plant-based food options at their local supermarket. The secret was simple: find the best plant-based comfort foods that are easy to fit into people’s daily meals. We turned this concept into revit with the mission to help as many people as possible enjoy the delicious health and environmental benefits of a plant-based lifestyle.</p>
@@ -225,8 +242,8 @@ get_header(); ?>
 		</div>
 		<div class="cell small-12 medium-6" id="the-buzz">
 				<div class="lead-in">
-					<h3>We deliver</h3>
-					<h2>only the best</h2>
+				<h3><?php the_field('section_six_header'); ?></h3>
+				<h2><?php the_field('section_six_subheader'); ?></h2>
 				</div>
 				<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>
 				<div class="grid-x icon-padding">
