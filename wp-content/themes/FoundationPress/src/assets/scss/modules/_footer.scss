@@ -1,6 +1,11 @@
 .footer {
   .grid-container {
     padding: 40px 0;
+    .cell {
+      @include breakpoint(small down) {
+        padding:10px 0;
+      }
+    }
   }
   background: #222222;
   color: #787878;
@@ -9,7 +14,10 @@
   }
   .emailus {
     font-size: 50px;
-    @include breakpoint(small down) {
+    @include breakpoint(1080px down) {
+      font-size: 35px;
+    }
+    @include breakpoint(887px down) {
       font-size: 25px;
     }
   }

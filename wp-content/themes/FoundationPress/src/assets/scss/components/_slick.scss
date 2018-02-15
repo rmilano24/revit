@@ -244,7 +244,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -200px;
+    
 
     display: block;
 
@@ -373,4 +373,20 @@
     .slick-active {
         opacity: 1;
     }
+    .slick-arrow {
+        z-index: 999;
+    }
+    .slick-prev, .slick-next {
+        top: 50%;
+    }
+    .slick-prev {
+        left:10%;
+    }
+    .slick-next {
+        right:10%;
+    }
+}
+
+.lazy {
+    height: 100%;
 }
