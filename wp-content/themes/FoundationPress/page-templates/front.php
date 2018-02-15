@@ -63,27 +63,32 @@ get_header(); ?>
 </section>
 
 <section class="center slider image-slider">
-    <div>
+
+	<?php
+		$args = array(
+			'post_type' => 'slides',
+			'posts_per_page' => 3
+		);
+		$my_slides = new WP_Query( $args );
+		if( $my_slides->have_posts() ) {
+			while( $my_slides ->have_posts() ) {
+				$my_slides->the_post();
+	?>
+
+	 <div>
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
     </div>
-    <div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
-    </div>
-    <div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
-    </div>
-    <div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
-    </div>
-    <div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
-    </div>
-    <div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
-    </div>
-    <div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
-    </div>
+
+	<?php
+			}
+		}
+		else {
+			echo 'There are currently no slides added.';
+		}
+	?>
+	<?php wp_reset_query(); ?>			
+
+
 </section>
 	
 <section id="the-box">	
