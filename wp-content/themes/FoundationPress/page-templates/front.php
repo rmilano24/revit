@@ -240,7 +240,7 @@ get_header(); ?>
 				<h2><?php the_field('section_five_subheader'); ?></h2>
 			</div>
 			
-			<p>Over the years, our friends, family, and colleagues have been hungry for our “secret” to a plant-based diet, as they had trouble finding great tasting, versatile plant-based food options at their local supermarket. The secret was simple: find the best plant-based comfort foods that are easy to fit into people’s daily meals. We turned this concept into revit with the mission to help as many people as possible enjoy the delicious health and environmental benefits of a plant-based lifestyle.</p>
+			<?php the_field('backstory_text'); ?>
 			<p><span class="purple"><b>—</b></span> revit founders</p>
 
 		</div>
@@ -249,7 +249,7 @@ get_header(); ?>
 				<h3><?php the_field('section_six_header'); ?></h3>
 				<h2><?php the_field('section_six_subheader'); ?></h2>
 				</div>
-				<p>Here’s how we catch the latest trends and news about a plant-based lifestyle and its amazing benefits:</p>
+				<p><?php the_field('buzz_intro'); ?></p>
 				<div class="grid-x icon-padding">
 					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
 					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
