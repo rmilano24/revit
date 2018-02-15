@@ -172,7 +172,7 @@ get_header(); ?>
 					}
 				}
 				else {
-					echo 'There are currently no box icons added.';
+					echo 'There are currently no benefit icons added.';
 				}
 			?>
 			<?php wp_reset_query(); ?>
@@ -197,31 +197,35 @@ get_header(); ?>
 			</div>
 
 		<div class="lazy slider" data-sizes="50vw">
-				<div>
-					<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
 
-					<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
-				</div>
-				<div>
-					<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
-
-					<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
-
-				</div>
-				<div>
-				<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
-
-					<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
-				</div>
-				
-			</div>	
+			<?php
+				$args = array(
+					'post_type' => 'testimonials',
+					'posts_per_page' => 10
+				);
+				$my_testimonials = new WP_Query( $args );
+				if( $my_testimonials->have_posts() ) {
+					while( $my_testimonials ->have_posts() ) {
+						$my_testimonials->the_post();
+			?>
 			
-			
+			<div>
+				<blockquote><span class="green">"</span><?php the_field('quote'); ?><span class="green">"</span></blockquote>
+
+				<div class="personsName"><span class="green"><b>—</b></span> <?php the_title(); ?></div>
+			</div>
+
+			<?php
+					}
+				}
+				else {
+					echo 'There are currently no testimonials added.';
+				}
+			?>
+			<?php wp_reset_query(); ?>
 		
-
+		</div>	
 			
-			
-
 		</div>
 	</div>
 </section>
