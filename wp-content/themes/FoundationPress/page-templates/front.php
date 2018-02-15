@@ -41,7 +41,7 @@ get_header(); ?>
 			<div class="cell small-12 medium-4">
 				<div class="icon">
 					<?php
-						$image = get_field('intro_icon');
+						$image = get_field('icon');
 						if( !empty($image) ): ?>
 						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 					<?php endif; ?>
@@ -100,18 +100,39 @@ get_header(); ?>
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
 			</div>
+
+
+			<?php
+				$args = array(
+					'post_type' => 'box_icons',
+					'posts_per_page' => 5
+				);
+				$my_box_icons = new WP_Query( $args );
+				if( $my_box_icons->have_posts() ) {
+					while( $my_box_icons ->have_posts() ) {
+						$my_box_icons->the_post();
+			?>
+			
 			<div class="grid-x icon-padding">
-				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
+				<div class="cell small-3">
+					<?php
+						$image = get_field('icon');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+				</div>
+				<div class="cell auto"><p><?php the_field('icon_text'); ?></p></div>
 			</div>
-			<div class="grid-x icon-padding">
-				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
-			</div>
-			<div class="grid-x icon-padding">
-				<div class="cell small-3"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/box/icon-box.svg" alt=""></div>
-				<div class="cell auto"><p>Each month you get the best plant-based products for breakfast, lunch, and dinner, along with a special holiday box</p></div>
-			</div>
+
+			<?php
+					}
+				}
+				else {
+					echo 'There are currently no box icons added.';
+				}
+			?>
+			<?php wp_reset_query(); ?>
+
 		</div>
 	</div>
 </section>
