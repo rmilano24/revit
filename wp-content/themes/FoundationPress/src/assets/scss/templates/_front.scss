@@ -52,6 +52,9 @@
   #icon-container {
     max-width: 950px;
     margin-bottom: 60px;
+    .icon {
+      margin-bottom: 24px;
+    }
     .cell {
       padding: 0 40px;
     }

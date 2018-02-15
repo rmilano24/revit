@@ -40,11 +40,11 @@ get_header(); ?>
 
 			<div class="cell small-12 medium-4">
 				<div class="icon">
-				<?php
-					$image = get_field('intro_icon');
-					if( !empty($image) ): ?>
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-				<?php endif; ?>
+					<?php
+						$image = get_field('intro_icon');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
 				</div>	
 				<p><?php the_field('icon_text'); ?></p>
 			</div>
