@@ -24,7 +24,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>			
-	<div class="grid-container">
+	<div class="grid-container" id="icon-container">
 		<div class="grid-x grid-padding-x">
 			<div class="cell small-12 medium-4">
 				<div class="icon">

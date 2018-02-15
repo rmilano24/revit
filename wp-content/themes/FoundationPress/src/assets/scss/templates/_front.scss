@@ -49,6 +49,13 @@
 
 #the-best {
   text-align: center;
+  #icon-container {
+    max-width: 950px;
+    margin-bottom: 60px;
+    .cell {
+      padding: 0 40px;
+    }
+  }
 }
 
 #the-box {
