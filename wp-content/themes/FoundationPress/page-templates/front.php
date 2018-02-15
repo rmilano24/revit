@@ -147,20 +147,43 @@ get_header(); ?>
 <section id="testimonials">	
 	<div class="grid-x grid-padding-x">
 		<div class="cell small-12">
+
 			<div class="lead-in">
 				<h3>We deliver</h3>
 				<h2>only the best</h2>
 			</div>
+
+		<div class="lazy slider" data-sizes="50vw">
+				<div>
+					<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
+
+					<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
+				</div>
+				<div>
+					<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
+
+					<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
+
+				</div>
+				<div>
+				<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
+
+					<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
+				</div>
+				
+			</div>	
+			
+			
 		
 
-			<blockquote>"Plant-based products expertly selected for me. So far these products are easily incorporated into my current diet."</blockquote>
-
-			<div class="personsName"><span class="green"><b>—</b></span> Jen B</div>
+			
 			
 
 		</div>
 	</div>
 </section>
+
+
 
 <section id="the-backstory-and-buzz">
 	<div class="grid-x grid-padding-x">
