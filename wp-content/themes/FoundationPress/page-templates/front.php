@@ -66,25 +66,29 @@ get_header(); ?>
 	</div>
 </section>
 
-<!-- <section class="center slider">
-		
-			<div>
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/fruit-jars@2x.jpg" alt="fruit jars">
-			</div>
-			<div>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/fatherson@2x.jpg" alt="fruit jars">
-			</div>
-			<div>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger@2x.jpg" alt="fruit jars">
-			</div>
-			<div>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/sando@2x.jpg" alt="fruit jars">
-			</div>
-			<div>
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/speghetti@2x.jpg" alt="fruit jarfs">
-			</div>
-		
-</section> -->
+<section class="center slider image-slider">
+    <div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+    </div>
+    <div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+    </div>
+    <div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+    </div>
+    <div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+    </div>
+    <div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+    </div>
+    <div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+    </div>
+    <div>
+		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+    </div>
+</section>
 	
 <section id="the-box">	
 	<div class="grid-x grid-padding-x">

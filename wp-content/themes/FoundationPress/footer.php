@@ -144,7 +144,8 @@
         dots: true,
         infinite: true,
         centerMode: true,
-        slidesToShow: 5,
+        slidesToShow: 1,
+        centerPadding: '280px',
         slidesToScroll: 3
       });
       $(".variable").slick({
