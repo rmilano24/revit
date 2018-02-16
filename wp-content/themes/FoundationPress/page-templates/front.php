@@ -250,18 +250,55 @@ get_header(); ?>
 				<h2><?php the_field('section_six_subheader'); ?></h2>
 				</div>
 				<p><?php the_field('buzz_intro'); ?></p>
+
 				<div class="grid-x icon-padding">
-					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
-					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
+					<div class="cell shrink"><a href="<?php the_field('buzz_link_one'); ?>" target="_blank">
+					<?php
+						$image = get_field('buzz_logo_one');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+					</a></div>
+					<div class="cell auto"><a href="<?php the_field('buzz_link_two'); ?>" target="_blank">
+					<?php
+						$image = get_field('buzz_logo_two');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+					</a></div>
 				</div>
 				<div class="grid-x icon-padding">
-					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
-					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
+					<div class="cell shrink"><a href="<?php the_field('buzz_link_three'); ?>" target="_blank">
+					<?php
+						$image = get_field('buzz_logo_three');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+					</a></div>
+					<div class="cell auto"><a href="<?php the_field('buzz_link_four'); ?>" target="_blank">
+					<?php
+						$image = get_field('buzz_logo_four');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+					</a></div>
 				</div>
 				<div class="grid-x icon-padding">
-					<div class="cell shrink"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/tk-logo-nav.png" alt=""></a></div>
-					<div class="cell auto"><a href="" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/buzz/EatForThePlanet.png" alt=""></a></div>
-				</div>			
+					<div class="cell shrink"><a href="<?php the_field('buzz_link_five'); ?>" target="_blank">
+					<?php
+						$image = get_field('buzz_logo_five');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+					</a></div>
+					<div class="cell auto"><a href="<?php the_field('buzz_link_six'); ?>" target="_blank">
+					<?php
+						$image = get_field('buzz_logo_six');
+						if( !empty($image) ): ?>
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<?php endif; ?>
+					</a></div>
+				</div>
 				
 		</div>
 	</div>
