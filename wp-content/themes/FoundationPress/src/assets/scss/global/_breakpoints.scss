@@ -1,11 +1,12 @@
-@include breakpoint(1164px up) {
+@include breakpoint(968px up) {
     .menu-icon {
         display: none;
     }
 }
 
-@include breakpoint(1163px down) {
+@include breakpoint(967px down) {
     .desktop-menu {
         display: none;
     }
 }
+
