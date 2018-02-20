@@ -1,1 +1,18 @@
-<svg width="128" height="90" viewBox="0 0 128 90" xmlns="http://www.w3.org/2000/svg"><title>Group 31</title><g stroke="#B0DF2F" stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M92 77.5c0 5.796 4.928 10.5 11 10.5 6.083 0 11-4.704 11-10.5S109.083 67 103 67c-6.072 0-11 4.704-11 10.5zM16 77.5C16 83.296 20.928 88 27 88c6.083 0 11-4.704 11-10.5S33.083 67 27 67c-6.072 0-11 4.704-11 10.5z"/><path d="M112.522 77H126V47.536L115.217 36.82 101.74 12.714H77.48V2H2v75h13.478M92 75H39"/><path d="M90 23h7.5l7.5 15M79 13v53M126 67H2"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="90px" viewBox="0 0 128 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 31</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Revised-Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-998.000000, -996.000000)" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-31" transform="translate(1000.000000, 998.000000)" stroke="#B0DF2F" stroke-width="4">
+            <path d="M112,75.5 C112,81.296 107.072,86 101,86 C94.917,86 90,81.296 90,75.5 C90,69.704 94.917,65 101,65 C107.072,65 112,69.704 112,75.5 L112,75.5 Z" id="Stroke-1103" transform="translate(101.000000, 75.500000) scale(-1, 1) translate(-101.000000, -75.500000) "></path>
+            <path d="M36,75.5 C36,81.296 31.072,86 25,86 C18.917,86 14,81.296 14,75.5 C14,69.704 18.917,65 25,65 C31.072,65 36,69.704 36,75.5 L36,75.5 Z" id="Stroke-1104" transform="translate(25.000000, 75.500000) scale(-1, 1) translate(-25.000000, -75.500000) "></path>
+            <polyline id="Stroke-1105" transform="translate(62.000000, 37.500000) scale(-1, 1) translate(-62.000000, -37.500000) " points="13.4782609 75 0 75 0 45.5357143 10.7826087 34.8214286 24.2608696 10.7142857 48.5217391 10.7142857 48.5217391 0 124 0 124 75 110.521739 75"></polyline>
+            <path d="M37,73 L90,73" id="Stroke-1106" transform="translate(63.500000, 75.000000) scale(-1, 1) translate(-63.500000, -75.000000) "></path>
+            <polyline id="Stroke-1107" transform="translate(95.500000, 28.500000) scale(-1, 1) translate(-95.500000, -28.500000) " points="103 21 95.5 21 88 36"></polyline>
+            <path d="M73,11 L73,64" id="Stroke-1108" transform="translate(75.000000, 37.500000) scale(-1, 1) translate(-75.000000, -37.500000) "></path>
+            <path d="M0,65 L124,65" id="Stroke-1109" transform="translate(62.000000, 67.000000) scale(-1, 1) translate(-62.000000, -67.000000) "></path>
+        </g>
+    </g>
+</svg>
