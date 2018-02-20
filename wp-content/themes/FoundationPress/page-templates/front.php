@@ -312,8 +312,7 @@ get_header(); ?>
 	<div class="grid-x grid-padding-x">
 		<div class="cell small-12">
 				<div class="lead-in">
-						<h2>You can have it all….from plants</h2>
-						<h1 class="regular">The Comfort <span class="green">+</span> The Flavor <span class="green">+</span> The Benefits</h1>
+					<?php the_field('call_to_action'); ?>
 					</div>
 				<a role="button" class="download large button sites-button hide-for-small-only" href="#">Reward Your Tastebuds Now</a>
 		</div>
