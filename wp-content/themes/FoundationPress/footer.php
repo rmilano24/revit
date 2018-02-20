@@ -82,8 +82,8 @@
             <div class="grid-x grid-padding-x">
                 <div class="cell small-12">
                     <ul>
-                        <li><a href="">copyrights</a></li>
-                        <li><a href="">privacy policy</a></li>
+                        <li><a href="/copyrights/">copyrights</a></li>
+                        <li><a href="/privacy-policy/">privacy policy</a></li>
                     </ul>
                 </div>
             </div>
