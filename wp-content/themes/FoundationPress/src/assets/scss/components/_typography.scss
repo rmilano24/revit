@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "RecipeDaily Bold";
-    src:  url('../fonts/RecipeDaily-Bold.woff2') format('woff2'),
-    url('../fonts/RecipeDaily-Bold.woff') format('woff');
+    font-family: "RecipeDaily BOLD";
+    src:  url('../fonts/RecipeDaily-BOLD.woff2') format('woff2'),
+    url('../fonts/RecipeDaily-BOLD.woff') format('woff');
 }
 
 @font-face {
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-family: 'RecipeDaily Bold'; 
+    font-family: 'RecipeDaily BOLD'; 
     font-size: 80px;
     color: #FFFFFF;
     letter-spacing: 4px;
@@ -50,7 +50,7 @@ h1 {
    }
 
 h2 {
-    font-family: 'RecipeDaily Bold'; 
+    font-family: 'RecipeDaily BOLD'; 
     font-size: 60px;
     color: #9B3B97;
     letter-spacing: 3px;
@@ -61,7 +61,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'RecipeDaily Bold'; 
+    font-family: 'RecipeDaily BOLD'; 
     font-size: 20px;
     color: #4A4A4A;
     letter-spacing: 2px;
