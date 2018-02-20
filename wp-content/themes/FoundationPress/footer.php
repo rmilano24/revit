@@ -108,7 +108,22 @@
         arrows: true,
         slidesToShow: 1,
         centerPadding: '280px',
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        responsive: [
+        {
+            breakpoint: 844,
+            settings: {
+            centerPadding: '80px'
+            }
+        },
+        {
+            breakpoint: 500,
+            settings: {
+            centerPadding: '20px'
+            }
+        }
+        ]
+        
       });
       $(".lazy").slick({
         dots: true,
