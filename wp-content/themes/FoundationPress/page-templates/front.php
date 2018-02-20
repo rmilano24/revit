@@ -76,7 +76,11 @@ get_header(); ?>
 	?>
 
 	 <div>
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/assets/images/slider/burger.jpg" alt="">
+	 <?php
+		$image = get_field('slide_image');
+		if( !empty($image) ): ?>
+		<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	<?php endif; ?>
     </div>
 
 	<?php
