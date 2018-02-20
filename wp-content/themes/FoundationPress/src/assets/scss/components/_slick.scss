@@ -280,9 +280,7 @@
 {
     font-size: 0;
     line-height: 0;
-
     display: block;
-
     width: 20px;
     height: 20px;
     padding: 5px;
@@ -353,15 +351,15 @@
 
 .slick-slide {
   transition: all ease-in-out .3s;
-  opacity: .2;
+  filter: brightness(50%);
 }
 
 .slick-active {
-  opacity: 1;
+    filter: brightness(100%) !important;
 }
 
 .slick-current {
-  opacity: 1;
+    filter: brightness(100%);
 }
 
 .slider {
@@ -375,7 +373,8 @@
     margin-bottom: 0px !important;
     .slick-slide {
         margin: 0px;
-        background: rgba(black, 0.5);
+        filter: brightness(50%);
+          
     }
     .slick-active {
         opacity: 1;
