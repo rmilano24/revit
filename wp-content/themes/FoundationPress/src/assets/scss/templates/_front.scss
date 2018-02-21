@@ -95,6 +95,9 @@
     }
     .icon-padding {
       margin-bottom: 30px;
+      .shrink {
+        padding-right: 20px;
+      }
       &:last-of-type {
         margin-bottom: 0px;
         @include breakpoint(small down) {
@@ -155,10 +158,10 @@
     }
     .icon-padding {
       margin-bottom: 30px;
-      &:last-of-type {
-        margin-bottom: 0px;
-        
+      .shrink {
+        padding-right: 20px;
       }
+      
     }
   }
   #benefits-girl {

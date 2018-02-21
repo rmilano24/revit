@@ -118,7 +118,7 @@ get_header(); ?>
 			?>
 			
 			<div class="grid-x icon-padding">
-				<div class="cell small-3">
+				<div class="cell shrink">
 					<?php
 						$image = get_field('icon');
 						if( !empty($image) ): ?>
@@ -162,7 +162,7 @@ get_header(); ?>
 			?>
 			
 			<div class="grid-x icon-padding">
-				<div class="cell small-3">
+				<div class="cell shrink">
 					<?php
 						$image = get_field('icon');
 						if( !empty($image) ): ?>
