@@ -314,7 +314,7 @@ get_header(); ?>
 				<div class="lead-in">
 					<?php the_field('call_to_action'); ?>
 					</div>
-				<a role="button" class="download large button sites-button hide-for-small-only" href="#">Reward Your Tastebuds Now</a>
+				<a role="button" class="download large button sites-button" href="#">Reward Your Tastebuds Now</a>
 		</div>
 	</div>
 </section>

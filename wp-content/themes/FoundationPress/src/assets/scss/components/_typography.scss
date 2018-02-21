@@ -31,13 +31,23 @@ h1 {
 #cta {
     h1 {
         font-size: 80px;
+        line-height: 75px;
         text-shadow: none;
+        @include breakpoint(small down) {
+            font-size: 40px;
+            line-height: 35px;
+        }
     }
     h2 {
         color: #fff;
         font-size: 40px;
         margin-bottom: 0px;
         line-height: 50px;
+        @include breakpoint(small down) {
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
     }
 }
 
