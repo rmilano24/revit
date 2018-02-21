@@ -36,6 +36,7 @@ h1 {
         @include breakpoint(small down) {
             font-size: 40px;
             line-height: 35px;
+            margin-bottom: 50px;
         }
     }
     h2 {
@@ -67,6 +68,8 @@ h2 {
     line-height: 62px;
     @include breakpoint(small down) {
     font-size: 40px;
+    line-height: 37px;
+    margin-top: 20px;
     }
 }
 
@@ -109,6 +112,10 @@ blockquote {
     border-left: none;
     max-width: 765px;
     margin: 0 auto;
+    @include breakpoint(small down) {
+        font-size: 20px;
+        line-height: 26px;
+    }
 }
 
 .personsName {
