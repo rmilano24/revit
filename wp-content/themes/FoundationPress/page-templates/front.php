@@ -8,7 +8,7 @@ get_header(); ?>
 	<div class="marketing">
 		<div class="tagline">
 			<?php the_field('hero_text'); ?>
-			<a role="button" class="download large button sites-button" href="#">Sign Up Now</a>
+			<a role="button" class="download large button sites-button" data-open="exampleModal1">Sign Up Now</a>
 		</div>
 	</div>
 </header>
@@ -314,7 +314,7 @@ get_header(); ?>
 				<div class="lead-in">
 					<?php the_field('call_to_action'); ?>
 					</div>
-				<a role="button" class="download large button sites-button" href="#">Reward Your Tastebuds Now</a>
+				<a role="button" class="download large button sites-button" data-open="exampleModal1">Reward Your Tastebuds Now</a>
 		</div>
 	</div>
 </section>

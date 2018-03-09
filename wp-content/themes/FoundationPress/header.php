@@ -34,7 +34,13 @@
 				</div>
 			</div>
 			<div class="top-bar-left">
-				<?php foundationpress_top_bar_r(); ?>
+			<ul id="menu-main-menu-1" class="dropdown menu desktop-menu" data-dropdown-menu="" role="menubar" data-e="6g6nfa-e"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6" role="menuitem"><a href="#the-best">The Best</a></li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7" role="menuitem"><a href="#the-box">The Box</a></li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8" role="menuitem"><a href="#the-benefits">The Benefits</a></li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9" role="menuitem"><a href="#the-backstory">The Backstory</a></li>
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10" role="menuitem"><a href="#the-buzz">The Buzz</a></li>
+				<li class="large button sites-button menu-item menu-item-type-custom menu-item-object-custom menu-item-12" role="menuitem"><a data-open="exampleModal1">Sign Up</a></li>
+			</ul>
 			</div>
 		</nav>
 		<button aria-label="<?php _e( 'Main Menu', 'foundationpress' ); ?>" class="menu-icon" type="button" data-toggle="<?php foundationpress_mobile_menu_id(); ?>"></button>
